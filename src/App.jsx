@@ -84,7 +84,7 @@ const App = () => {
 
   const technicalSkills = [
     "Cloud Architecture", "Infrastructure as Code", "DevOps", "Security", "Monitoring/Observability", "Cost Optimization",
-    "Containerization", "CI/CD Pipelines", "Logging", "PostgreSQL"
+    "Containerization", "CI/CD Pipelines", "Logging", "PostgreSQL/MySQL"
   ];
 
   const softSkills = [
@@ -99,9 +99,9 @@ const App = () => {
     { name: "Kubernetes", color: "bg-blue-600", icon: "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" },
     { name: "Terraform", color: "bg-purple-600", icon: "https://upload.wikimedia.org/wikipedia/commons/0/04/Terraform_Logo.svg" },
     { name: "Ansible", color: "bg-red-600", icon: "https://upload.wikimedia.org/wikipedia/commons/0/05/Ansible_Logo.png" },
-    { name: "Linux", color: "bg-yellow-500", icon: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" },
-    { name: "Jenkins", color: "bg-red-700", icon: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg" },
-    { name: "GitLab", color: "bg-orange-600", icon: "https://upload.wikimedia.org/wikipedia/commons/1/18/GitLab_Logo.svg" }
+    { name: "Linux", color: "bg-yellow-500", icon: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" }
+//    { name: "Jenkins", color: "bg-red-700", icon: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg" },
+//    { name: "GitLab", color: "bg-orange-600", icon: "https://upload.wikimedia.org/wikipedia/commons/1/18/GitLab_Logo.svg" }
   ];
 
   const scrollToSection = (sectionId) => {
@@ -279,7 +279,7 @@ const App = () => {
             </div>
             <div className="hero-image">
               <div className="profile-circle">
-                <img src="https://placehold.co/200x200/10b981/ffffff?text=JD" alt="Profile" className="profile-img" />
+                <img src="https://placehold.co/200x200/10b981/ffffff?text=EF" alt="Profile" className="profile-img" />
               </div>
             </div>
           </div>
@@ -322,7 +322,7 @@ const App = () => {
           </div>
           <div className="view-all-container">
             <a
-              href="https://github.com/omiete01"
+              href="https://github.com/omiete01?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary view-all-btn"
